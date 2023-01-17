@@ -17,7 +17,7 @@ const initValues = { name: '', email: '', subject: '', message: '' };
 
 const initState = { isLoading: false, error: '', values: initValues };
 
-export default function Home() {
+export default function Contact() {
 	const toast = useToast();
 	const [state, setState] = useState(initState);
 	const [touched, setTouched] = useState({});
